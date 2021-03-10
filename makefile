@@ -5,5 +5,6 @@ report:
 	unzip all.csv
 
 clean: 
-	rm *.json
-	rm *.zip
+	rm -f *.json
+	rm -f *.zip
+	rm -f *.csv
