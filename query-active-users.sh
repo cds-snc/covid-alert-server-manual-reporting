@@ -12,7 +12,7 @@ perform_scan () {
 
 query ()
 {
-	perform_scan "active-user" "$1"
+	perform_scan "active-user" $1
 	perform_scan "background-check" "$1"
 	perform_scan "exposed" "$1"
 }

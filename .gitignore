@@ -1,3 +1,5 @@
 aws
 *.json
 *.zip
+*.csv
+env
