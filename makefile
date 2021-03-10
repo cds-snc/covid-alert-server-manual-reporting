@@ -1,7 +1,7 @@
 report:
 	./query-active-users.sh
 	./query-all.sh
-	python generatecsv.py
+	python3 generatecsv.py
 	unzip all.csv
 
 clean: 
