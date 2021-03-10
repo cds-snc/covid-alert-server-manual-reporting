@@ -11,7 +11,8 @@ This is meant to run in a VS Code Dev Container, however it can also be run loca
 ```sh
 python3 -m venv ./env && ./bin/init.sh
 ```
+To run generate the reports run 
 
-
-
-
+```sh 
+make reports
+```
