@@ -57,6 +57,8 @@ del df["pushnotification.S"]
 del df["sk.S"]
 del df["duration.S"]
 del df["pk.S"]
+del df["model.S"]
+
 print(df.head())
 
 df = df[df.identifier.str.contains("active-user")]

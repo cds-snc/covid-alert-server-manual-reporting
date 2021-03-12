@@ -2,7 +2,7 @@ report:
 	./query-active-users.sh
 	./query-all.sh
 	python3 generatecsv.py
-	unzip all.csv
+	unzip all.zip
 
 clean: 
 	rm -f *.json
